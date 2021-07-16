@@ -34,12 +34,12 @@ body {
   background-color: #ececf1;
 }
 a {
-  color: #f5f7f6 !important;
+  color: black !important;
   font-weight: 750;
   font-size: 20px;
 }
 a:hover {
-  color: #e77265 !important;
+  color: #cea242 !important;
 }
 .header-background {
   position: static;
@@ -61,7 +61,7 @@ a:hover {
       rgba(247, 249, 252, 0.1),
       rgba(247, 249, 252, 0.2)
     ),
-    url(img/demi-deherrera-L-sm1B4L1Ns-unsplash.jpg);
+    url(img/lex-sirikiat-EjbQQ0fgkFE-unsplash.jpg);
   flex-direction: column;
   background-position: 0px 0px, 100% 50%;
   background-size: auto, cover;
@@ -123,7 +123,7 @@ a:hover {
   position: relative;
 }
 .navbar-expand-lg .navbar-nav .nav-link.active {
-  color: #e77265 !important;
+  color: #cea242 !important;
 }
 /* .btn {
   background-color: #e77265 !important;
@@ -133,11 +133,11 @@ a:hover {
   font-size: 1.2rem;
 } */
 .heading {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 1.4;
-  text-align: center;
-  color: white;
+  text-align: right;
+  color: rgb(29, 27, 27);
   margin-top: 180px;
   margin-bottom: 8px;
   min-height: 100px;
