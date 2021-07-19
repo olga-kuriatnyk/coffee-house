@@ -48,14 +48,8 @@ a:hover {
   top: 0;
   height: auto;
   min-height: 750px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   padding-bottom: 70px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(247, 249, 252, 0.9))
-  );
   background-image: linear-gradient(
       180deg,
       rgba(247, 249, 252, 0.1),
@@ -89,7 +83,7 @@ a:hover {
   order: 0;
   /* background-color: rgba(97, 93, 90, 0.253);*/
 }
-/* .navbar .navbar-brand a {
+.navbar .navbar-brand a {
   padding: 1rem 0;
   display: block;
   text-decoration: none;
@@ -97,7 +91,7 @@ a:hover {
 .navbar-brand {
   font-size: 2.2rem;
   color: white;
-} */
+}
 .navbar-toggler {
   border: none;
   padding: 10px 6px;
@@ -144,13 +138,7 @@ a:hover {
 }
 .column-left {
   min-height: 750px;
-  margin-bottom: 25px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(247, 249, 252, 0))
-  );
+  margin-bottom: 0px;
   background-image: linear-gradient(
       180deg,
       rgba(247, 249, 252, 0.1),
@@ -163,18 +151,49 @@ a:hover {
   object-fit: cover;
   -o-object-fit: cover;
 }
-.column-right .section-title {
-  margin-top: 80px;
+.section-title {
+  margin-top: 0px;
   padding: 5rem 2rem 0rem 5rem;
   font-size: 2.8rem;
   color: rgb(29, 27, 27);
   font-weight: 500;
 }
-.column-right .paragraph {
+.paragraph {
   margin-top: 15px;
   padding: 1rem 5rem 1rem 5rem;
   font-size: 1.1rem;
   color: rgb(29, 27, 27);
   line-height: 1.4;
+  text-align: justify;
+}
+/* Our coffee section */
+.our-coffee-right {
+  min-height: 750px;
+  margin-bottom: 0px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(247, 249, 252, 0.1),
+      rgba(247, 249, 252, 0.2)
+    ),
+    url(img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+.sub-title {
+  margin-top: 0px;
+  padding: 1rem 2rem 0rem 5rem;
+  font-size: 1.7rem;
+  color: rgb(29, 27, 27);
+  font-weight: 550;
+}
+.coffee-characteristic {
+  padding-left: 5rem;
+  font-size: 1.1rem;
+  list-style-type: none;
+  color: rgb(29, 27, 27);
+  line-height: 1.6;
   text-align: justify;
 }
