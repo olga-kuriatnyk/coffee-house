@@ -32,37 +32,29 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                  <a class="nav-link active" aria-current="page" href="#about-us">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" 
-                    href="#" 
-                    id="navbarDropdown" 
-                    role="button" 
-                    data-bs-toggle="dropdown" 
+                  <a class="nav-link dropdown-toggle"
+                    href="#our-coffee"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Coffee
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Coffee1</a></li>
-                    <li><a class="dropdown-item" href="#"> Coffee2</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else </a></li>
+                    <li><a class="dropdown-item" href="#our-coffee">Ethopian Guji</a></li>
+                    <li><a class="dropdown-item" href="#our-coffee">Guatemala Aragon</a></li>
                   </ul>
                 </li>
-                <!-- <li class="nav-item" >
-                  <a class="nav-link" href="#" >Menu</a>
-                </li> -->
                 <li class="nav-item" >
-                  <a class="nav-link" href="#" >Visit</a>
+                  <a class="nav-link" href="#visit-us" >Visit</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact us</a>
+                  <a class="nav-link" href="#contact-us">Contact us</a>
                 </li>
               </ul>
-              <!-- <form class="d-flex"  style="float:right;">
-                <button class="btn" type="submit">Order</button>
-              </form> -->
             </div>
           </div>
         </nav>
@@ -166,7 +158,6 @@
           <p class="paragraph">We love hearing from you! If you have a
             question, concern, idea, or anything else you'd like to share,
             please send us a message below.</p>
-          
           <form id="contact-form" action="/action_page.php">
             <div>
               <label for="name">Name</label><br>
@@ -178,17 +169,15 @@
             </div>
             <div>
               <label for="message">Message</label><br>
-              <input type="text" name="message">
+              <input type="textarea" name="message">
             </div>
             <input type="submit" onclick="myFunction()" value="Submit">
           </form>
-
           <script>
             function myFunction() {
               document.getElementById("frm1").submit();
             }
           </script>
-
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-6 contactus"></div>
       </div>

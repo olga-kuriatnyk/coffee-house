@@ -58,12 +58,19 @@ input[type="text"] {
   color: rgb(29, 27, 27);
   padding: 12px 20px;
   margin: 8px 0;
-  border: none;
+  border: 2px solid #ccc;
   border-radius: 4px;
 }
-input[type="text"],
-message {
-  padding: 12px 60px;
+input[type="textarea"] {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
 label {
   color: rgb(29, 27, 27);
@@ -187,7 +194,7 @@ input[type="submit"] {
       rgba(247, 249, 252, 0.1),
       rgba(247, 249, 252, 0.2)
     ),
-    url(img/nathan-dumlao-71u2fOofI-U-unsplash.jpg);
+    url(img/about-section.jpg);
   background-position: 0px 0px, 100% 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -204,7 +211,7 @@ input[type="submit"] {
       rgba(247, 249, 252, 0.1),
       rgba(247, 249, 252, 0.2)
     ),
-    url(img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
+    url(img/coffee-section.jpg);
   background-position: 0px 0px, 100% 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -221,7 +228,7 @@ input[type="submit"] {
       rgba(247, 249, 252, 0.1),
       rgba(247, 249, 252, 0.2)
     ),
-    url(img/angela-bailey-_uHBJNuKyk8.jpg);
+    url(img/visit-section.jpg);
   background-position: 0px 0px, 100% 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -242,7 +249,7 @@ input[type="submit"] {
       rgba(247, 249, 252, 0.1),
       rgba(247, 249, 252, 0.2)
     ),
-    url(img/nathan-dumlao-zUNs99PGDg0-unsplash.jpg);
+    url(img/contact-section.jpg);
   background-position: 0px 0px, 100% 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
